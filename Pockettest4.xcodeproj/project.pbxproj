@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC6F1FF11BB0E0BA001E1F7D /* QFTabbarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6F1FF01BB0E0BA001E1F7D /* QFTabbarButton.m */; };
+		BC6F1FF41BB0F4DA001E1F7D /* QFCookBookController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6F1FF31BB0F4DA001E1F7D /* QFCookBookController.m */; };
+		BC6F1FF71BB0F513001E1F7D /* QFCompetitiveController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6F1FF61BB0F513001E1F7D /* QFCompetitiveController.m */; };
+		BC6F1FFA1BB0F533001E1F7D /* QFProfileController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6F1FF91BB0F533001E1F7D /* QFProfileController.m */; };
+		BC6F1FFD1BB0F547001E1F7D /* QFSoupController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6F1FFC1BB0F547001E1F7D /* QFSoupController.m */; };
+		BC6F20001BB0FF81001E1F7D /* QFProfileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6F1FFF1BB0FF81001E1F7D /* QFProfileModel.m */; };
+		BC6F20041BB12C89001E1F7D /* QFUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6F20031BB12C89001E1F7D /* QFUserInfoViewController.m */; };
+		BC6F20821BB13281001E1F7D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6F20811BB13281001E1F7D /* SystemConfiguration.framework */; };
+		BC76FEF51BB02FD300A3BC0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC76FEF41BB02FD300A3BC0E /* main.m */; };
+		BC76FEF81BB02FD300A3BC0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC76FEF71BB02FD300A3BC0E /* AppDelegate.m */; };
+		BC76FF001BB02FD300A3BC0E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC76FEFF1BB02FD300A3BC0E /* Images.xcassets */; };
+		BC76FF031BB02FD300A3BC0E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC76FF011BB02FD300A3BC0E /* LaunchScreen.xib */; };
+		BC76FF0F1BB02FD300A3BC0E /* Pockettest4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC76FF0E1BB02FD300A3BC0E /* Pockettest4Tests.m */; };
+		BC76FF351BB0304F00A3BC0E /* QFBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC76FF1B1BB0304E00A3BC0E /* QFBaseController.m */; };
+		BC76FF361BB0304F00A3BC0E /* QFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC76FF1D1BB0304E00A3BC0E /* QFNavigationController.m */; };
+		BC76FF371BB0304F00A3BC0E /* QFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC76FF1F1BB0304E00A3BC0E /* QFTabBarController.m */; };
+		BC76FF381BB0304F00A3BC0E /* QFTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BC76FF231BB0304E00A3BC0E /* QFTabBar.m */; };
+		BCE919841BB13EC600E59229 /* QFHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE919831BB13EC600E59229 /* QFHeaderView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC76FF091BB02FD300A3BC0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC76FEE71BB02FD300A3BC0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC76FEEE1BB02FD300A3BC0E;
+			remoteInfo = Pockettest4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC6F1FEF1BB0E0BA001E1F7D /* QFTabbarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFTabbarButton.h; sourceTree = "<group>"; };
+		BC6F1FF01BB0E0BA001E1F7D /* QFTabbarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFTabbarButton.m; sourceTree = "<group>"; };
+		BC6F1FF21BB0F4DA001E1F7D /* QFCookBookController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QFCookBookController.h; path = ../../Competitive/Controller/QFCookBookController.h; sourceTree = "<group>"; };
+		BC6F1FF31BB0F4DA001E1F7D /* QFCookBookController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QFCookBookController.m; path = ../../Competitive/Controller/QFCookBookController.m; sourceTree = "<group>"; };
+		BC6F1FF51BB0F513001E1F7D /* QFCompetitiveController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFCompetitiveController.h; sourceTree = "<group>"; };
+		BC6F1FF61BB0F513001E1F7D /* QFCompetitiveController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFCompetitiveController.m; sourceTree = "<group>"; };
+		BC6F1FF81BB0F533001E1F7D /* QFProfileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFProfileController.h; sourceTree = "<group>"; };
+		BC6F1FF91BB0F533001E1F7D /* QFProfileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFProfileController.m; sourceTree = "<group>"; };
+		BC6F1FFB1BB0F547001E1F7D /* QFSoupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFSoupController.h; sourceTree = "<group>"; };
+		BC6F1FFC1BB0F547001E1F7D /* QFSoupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFSoupController.m; sourceTree = "<group>"; };
+		BC6F1FFE1BB0FF81001E1F7D /* QFProfileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFProfileModel.h; sourceTree = "<group>"; };
+		BC6F1FFF1BB0FF81001E1F7D /* QFProfileModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFProfileModel.m; sourceTree = "<group>"; };
+		BC6F20011BB128AC001E1F7D /* Pockettest4-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pockettest4-PrefixHeader.pch"; sourceTree = "<group>"; };
+		BC6F20021BB12C89001E1F7D /* QFUserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFUserInfoViewController.h; sourceTree = "<group>"; };
+		BC6F20031BB12C89001E1F7D /* QFUserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFUserInfoViewController.m; sourceTree = "<group>"; };
+		BC6F20811BB13281001E1F7D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BC76FEEF1BB02FD300A3BC0E /* Pockettest4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pockettest4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC76FEF31BB02FD300A3BC0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC76FEF41BB02FD300A3BC0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC76FEF61BB02FD300A3BC0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC76FEF71BB02FD300A3BC0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC76FEFF1BB02FD300A3BC0E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BC76FF021BB02FD300A3BC0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BC76FF081BB02FD300A3BC0E /* Pockettest4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pockettest4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC76FF0D1BB02FD300A3BC0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC76FF0E1BB02FD300A3BC0E /* Pockettest4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pockettest4Tests.m; sourceTree = "<group>"; };
+		BC76FF1A1BB0304E00A3BC0E /* QFBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFBaseController.h; sourceTree = "<group>"; };
+		BC76FF1B1BB0304E00A3BC0E /* QFBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFBaseController.m; sourceTree = "<group>"; };
+		BC76FF1C1BB0304E00A3BC0E /* QFNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFNavigationController.h; sourceTree = "<group>"; };
+		BC76FF1D1BB0304E00A3BC0E /* QFNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFNavigationController.m; sourceTree = "<group>"; };
+		BC76FF1E1BB0304E00A3BC0E /* QFTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFTabBarController.h; sourceTree = "<group>"; };
+		BC76FF1F1BB0304E00A3BC0E /* QFTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFTabBarController.m; sourceTree = "<group>"; };
+		BC76FF201BB0304E00A3BC0E /* QFMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFMacros.h; sourceTree = "<group>"; };
+		BC76FF221BB0304E00A3BC0E /* QFTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFTabBar.h; sourceTree = "<group>"; };
+		BC76FF231BB0304E00A3BC0E /* QFTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFTabBar.m; sourceTree = "<group>"; };
+		BCE919821BB13EC600E59229 /* QFHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFHeaderView.h; sourceTree = "<group>"; };
+		BCE919831BB13EC600E59229 /* QFHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFHeaderView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC76FEEC1BB02FD300A3BC0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6F20821BB13281001E1F7D /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC76FF051BB02FD300A3BC0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC6F20051BB12E72001E1F7D /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		BC76FEE61BB02FD300A3BC0E = {
+			isa = PBXGroup;
+			children = (
+				BC6F20811BB13281001E1F7D /* SystemConfiguration.framework */,
+				BC76FEF11BB02FD300A3BC0E /* Pockettest4 */,
+				BC76FF0B1BB02FD300A3BC0E /* Pockettest4Tests */,
+				BC76FEF01BB02FD300A3BC0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC76FEF01BB02FD300A3BC0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC76FEEF1BB02FD300A3BC0E /* Pockettest4.app */,
+				BC76FF081BB02FD300A3BC0E /* Pockettest4Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC76FEF11BB02FD300A3BC0E /* Pockettest4 */ = {
+			isa = PBXGroup;
+			children = (
+				BC6F20051BB12E72001E1F7D /* Libs */,
+				BC76FF181BB0304E00A3BC0E /* Common */,
+				BC76FF241BB0304E00A3BC0E /* PocketKitchen */,
+				BC76FEF21BB02FD300A3BC0E /* Supporting Files */,
+			);
+			path = Pockettest4;
+			sourceTree = "<group>";
+		};
+		BC76FEF21BB02FD300A3BC0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC76FEF61BB02FD300A3BC0E /* AppDelegate.h */,
+				BC76FEF71BB02FD300A3BC0E /* AppDelegate.m */,
+				BC76FEFF1BB02FD300A3BC0E /* Images.xcassets */,
+				BC76FF011BB02FD300A3BC0E /* LaunchScreen.xib */,
+				BC76FEF31BB02FD300A3BC0E /* Info.plist */,
+				BC76FEF41BB02FD300A3BC0E /* main.m */,
+				BC6F20011BB128AC001E1F7D /* Pockettest4-PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC76FF0B1BB02FD300A3BC0E /* Pockettest4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BC76FF0E1BB02FD300A3BC0E /* Pockettest4Tests.m */,
+				BC76FF0C1BB02FD300A3BC0E /* Supporting Files */,
+			);
+			path = Pockettest4Tests;
+			sourceTree = "<group>";
+		};
+		BC76FF0C1BB02FD300A3BC0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC76FF0D1BB02FD300A3BC0E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC76FF181BB0304E00A3BC0E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BC76FF191BB0304E00A3BC0E /* Controller */,
+				BC76FF201BB0304E00A3BC0E /* QFMacros.h */,
+				BC76FF211BB0304E00A3BC0E /* View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		BC76FF191BB0304E00A3BC0E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC76FF1A1BB0304E00A3BC0E /* QFBaseController.h */,
+				BC76FF1B1BB0304E00A3BC0E /* QFBaseController.m */,
+				BC76FF1E1BB0304E00A3BC0E /* QFTabBarController.h */,
+				BC76FF1F1BB0304E00A3BC0E /* QFTabBarController.m */,
+				BC76FF1C1BB0304E00A3BC0E /* QFNavigationController.h */,
+				BC76FF1D1BB0304E00A3BC0E /* QFNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BC76FF211BB0304E00A3BC0E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC76FF221BB0304E00A3BC0E /* QFTabBar.h */,
+				BC76FF231BB0304E00A3BC0E /* QFTabBar.m */,
+				BC6F1FEF1BB0E0BA001E1F7D /* QFTabbarButton.h */,
+				BC6F1FF01BB0E0BA001E1F7D /* QFTabbarButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC76FF241BB0304E00A3BC0E /* PocketKitchen */ = {
+			isa = PBXGroup;
+			children = (
+				BC76FF251BB0304E00A3BC0E /* Competitive */,
+				BC76FF291BB0304E00A3BC0E /* CookBook */,
+				BC76FF2D1BB0304E00A3BC0E /* Profile */,
+				BC76FF311BB0304E00A3BC0E /* Soup */,
+			);
+			path = PocketKitchen;
+			sourceTree = "<group>";
+		};
+		BC76FF251BB0304E00A3BC0E /* Competitive */ = {
+			isa = PBXGroup;
+			children = (
+				BC76FF261BB0304E00A3BC0E /* Controller */,
+				BC76FF271BB0304E00A3BC0E /* Model */,
+				BC76FF281BB0304E00A3BC0E /* View */,
+			);
+			path = Competitive;
+			sourceTree = "<group>";
+		};
+		BC76FF261BB0304E00A3BC0E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC6F1FF51BB0F513001E1F7D /* QFCompetitiveController.h */,
+				BC6F1FF61BB0F513001E1F7D /* QFCompetitiveController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BC76FF271BB0304E00A3BC0E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC76FF281BB0304E00A3BC0E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC76FF291BB0304E00A3BC0E /* CookBook */ = {
+			isa = PBXGroup;
+			children = (
+				BC76FF2A1BB0304E00A3BC0E /* Controller */,
+				BC76FF2B1BB0304E00A3BC0E /* Model */,
+				BC76FF2C1BB0304E00A3BC0E /* View */,
+			);
+			path = CookBook;
+			sourceTree = "<group>";
+		};
+		BC76FF2A1BB0304E00A3BC0E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC6F1FF21BB0F4DA001E1F7D /* QFCookBookController.h */,
+				BC6F1FF31BB0F4DA001E1F7D /* QFCookBookController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BC76FF2B1BB0304E00A3BC0E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC76FF2C1BB0304E00A3BC0E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC76FF2D1BB0304E00A3BC0E /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				BC76FF2E1BB0304E00A3BC0E /* Controller */,
+				BC76FF2F1BB0304E00A3BC0E /* Model */,
+				BC76FF301BB0304E00A3BC0E /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		BC76FF2E1BB0304E00A3BC0E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC6F1FF81BB0F533001E1F7D /* QFProfileController.h */,
+				BC6F1FF91BB0F533001E1F7D /* QFProfileController.m */,
+				BC6F20021BB12C89001E1F7D /* QFUserInfoViewController.h */,
+				BC6F20031BB12C89001E1F7D /* QFUserInfoViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BC76FF2F1BB0304E00A3BC0E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC6F1FFE1BB0FF81001E1F7D /* QFProfileModel.h */,
+				BC6F1FFF1BB0FF81001E1F7D /* QFProfileModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC76FF301BB0304E00A3BC0E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BCE919821BB13EC600E59229 /* QFHeaderView.h */,
+				BCE919831BB13EC600E59229 /* QFHeaderView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC76FF311BB0304E00A3BC0E /* Soup */ = {
+			isa = PBXGroup;
+			children = (
+				BC76FF321BB0304E00A3BC0E /* Controller */,
+				BC76FF331BB0304F00A3BC0E /* Model */,
+				BC76FF341BB0304F00A3BC0E /* View */,
+			);
+			path = Soup;
+			sourceTree = "<group>";
+		};
+		BC76FF321BB0304E00A3BC0E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC6F1FFB1BB0F547001E1F7D /* QFSoupController.h */,
+				BC6F1FFC1BB0F547001E1F7D /* QFSoupController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BC76FF331BB0304F00A3BC0E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC76FF341BB0304F00A3BC0E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC76FEEE1BB02FD300A3BC0E /* Pockettest4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC76FF121BB02FD300A3BC0E /* Build configuration list for PBXNativeTarget "Pockettest4" */;
+			buildPhases = (
+				BC76FEEB1BB02FD300A3BC0E /* Sources */,
+				BC76FEEC1BB02FD300A3BC0E /* Frameworks */,
+				BC76FEED1BB02FD300A3BC0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pockettest4;
+			productName = Pockettest4;
+			productReference = BC76FEEF1BB02FD300A3BC0E /* Pockettest4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC76FF071BB02FD300A3BC0E /* Pockettest4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC76FF151BB02FD300A3BC0E /* Build configuration list for PBXNativeTarget "Pockettest4Tests" */;
+			buildPhases = (
+				BC76FF041BB02FD300A3BC0E /* Sources */,
+				BC76FF051BB02FD300A3BC0E /* Frameworks */,
+				BC76FF061BB02FD300A3BC0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC76FF0A1BB02FD300A3BC0E /* PBXTargetDependency */,
+			);
+			name = Pockettest4Tests;
+			productName = Pockettest4Tests;
+			productReference = BC76FF081BB02FD300A3BC0E /* Pockettest4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC76FEE71BB02FD300A3BC0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = qianfeng;
+				TargetAttributes = {
+					BC76FEEE1BB02FD300A3BC0E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					BC76FF071BB02FD300A3BC0E = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = BC76FEEE1BB02FD300A3BC0E;
+					};
+				};
+			};
+			buildConfigurationList = BC76FEEA1BB02FD300A3BC0E /* Build configuration list for PBXProject "Pockettest4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = BC76FEE61BB02FD300A3BC0E;
+			productRefGroup = BC76FEF01BB02FD300A3BC0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC76FEEE1BB02FD300A3BC0E /* Pockettest4 */,
+				BC76FF071BB02FD300A3BC0E /* Pockettest4Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC76FEED1BB02FD300A3BC0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC76FF031BB02FD300A3BC0E /* LaunchScreen.xib in Resources */,
+				BC76FF001BB02FD300A3BC0E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC76FF061BB02FD300A3BC0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC76FEEB1BB02FD300A3BC0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6F20001BB0FF81001E1F7D /* QFProfileModel.m in Sources */,
+				BC6F1FF71BB0F513001E1F7D /* QFCompetitiveController.m in Sources */,
+				BC76FF371BB0304F00A3BC0E /* QFTabBarController.m in Sources */,
+				BC6F1FF11BB0E0BA001E1F7D /* QFTabbarButton.m in Sources */,
+				BC76FEF81BB02FD300A3BC0E /* AppDelegate.m in Sources */,
+				BC6F1FF41BB0F4DA001E1F7D /* QFCookBookController.m in Sources */,
+				BCE919841BB13EC600E59229 /* QFHeaderView.m in Sources */,
+				BC76FEF51BB02FD300A3BC0E /* main.m in Sources */,
+				BC6F1FFD1BB0F547001E1F7D /* QFSoupController.m in Sources */,
+				BC6F1FFA1BB0F533001E1F7D /* QFProfileController.m in Sources */,
+				BC76FF381BB0304F00A3BC0E /* QFTabBar.m in Sources */,
+				BC6F20041BB12C89001E1F7D /* QFUserInfoViewController.m in Sources */,
+				BC76FF351BB0304F00A3BC0E /* QFBaseController.m in Sources */,
+				BC76FF361BB0304F00A3BC0E /* QFNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC76FF041BB02FD300A3BC0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC76FF0F1BB02FD300A3BC0E /* Pockettest4Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC76FF0A1BB02FD300A3BC0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC76FEEE1BB02FD300A3BC0E /* Pockettest4 */;
+			targetProxy = BC76FF091BB02FD300A3BC0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC76FF011BB02FD300A3BC0E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC76FF021BB02FD300A3BC0E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC76FF101BB02FD300A3BC0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC76FF111BB02FD300A3BC0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC76FF131BB02FD300A3BC0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Pockettest4/Pockettest4-PrefixHeader.pch";
+				INFOPLIST_FILE = Pockettest4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_4.2.3",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/Instagram",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/LaiWang",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/Line",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/Tumblr",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/UMSocial_ScreenShot_Sdk",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/UMSocial_Shake_Sdk",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/Wechat",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/Whatsapp",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/YiXin",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_4.2.3",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/Instagram",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/LaiWang",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/Line",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/Tumblr",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/UMSocial_ScreenShot_Sdk",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/UMSocial_Shake_Sdk",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/Wechat",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/Whatsapp",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/YiXin",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC76FF141BB02FD300A3BC0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Pockettest4/Pockettest4-PrefixHeader.pch";
+				INFOPLIST_FILE = Pockettest4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_4.2.3",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/Instagram",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/LaiWang",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/Line",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/Tumblr",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/UMSocial_ScreenShot_Sdk",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/UMSocial_Shake_Sdk",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/Wechat",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/Whatsapp",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/YiXin",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_4.2.3",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/Instagram",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/LaiWang",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/Line",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/Tumblr",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/UMSocial_ScreenShot_Sdk",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/UMSocial_Shake_Sdk",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/Wechat",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/Whatsapp",
+					"$(PROJECT_DIR)/Pockettest4/Libs/umeng_ios_social_sdk_4.2.3_arm64_custom",
+					"分享/UMSocial_Sdk_Extra_Frameworks/YiXin",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC76FF161BB02FD300A3BC0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Pockettest4Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pockettest4.app/Pockettest4";
+			};
+			name = Debug;
+		};
+		BC76FF171BB02FD300A3BC0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Pockettest4Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pockettest4.app/Pockettest4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC76FEEA1BB02FD300A3BC0E /* Build configuration list for PBXProject "Pockettest4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC76FF101BB02FD300A3BC0E /* Debug */,
+				BC76FF111BB02FD300A3BC0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC76FF121BB02FD300A3BC0E /* Build configuration list for PBXNativeTarget "Pockettest4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC76FF131BB02FD300A3BC0E /* Debug */,
+				BC76FF141BB02FD300A3BC0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC76FF151BB02FD300A3BC0E /* Build configuration list for PBXNativeTarget "Pockettest4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC76FF161BB02FD300A3BC0E /* Debug */,
+				BC76FF171BB02FD300A3BC0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC76FEE71BB02FD300A3BC0E /* Project object */;
+}
